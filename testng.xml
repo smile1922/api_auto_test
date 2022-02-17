@@ -6,7 +6,6 @@
             <class name="com.testcases.ShopcartTest"/>
             <class name="com.testcases.LoginTest"/>
             <class name="com.testcases.SearchProdTest"/>
-            <class name="com.testcases.RegisterTest"/>
         </classes>
     </test>
 </suite>
