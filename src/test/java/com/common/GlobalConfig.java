@@ -16,8 +16,8 @@ public class GlobalConfig {
     //public static final String url = "XXX";
     //线上环境
     //商城
-    //public static final String url = "http://mall.lemonban.com:8107";
+    public static final String url = "http://mall.lemonban.com:8107";
     //后台
    // public static final String url = "http://erp.lemfix.com";
-    public static final String url = "http://api.lemonban.com";
+   // public static final String url = "http://api.lemonban.com";
 }
