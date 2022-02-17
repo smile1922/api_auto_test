@@ -8,7 +8,7 @@ package com.common;
  */
 public class GlobalConfig {
     //调试开关
-    public static final boolean IS_DEBUG=true;
+    public static final boolean IS_DEBUG=false;
     //项目URL地址
     //预发布环境
     //public static final String url = "XXXX";

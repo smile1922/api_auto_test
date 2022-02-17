@@ -37,7 +37,7 @@ public class LoginTest extends BaseTest {
 
     }
 
-    @Test(dataProvider = "getLoginDatas")
+    @Test(dataProvider = "getLoginDatas",enabled = false)
     public void test_login_from_array(String caseData) {
         //1.准备测试数据
         //String jsonData = "{\"principal\":\"waiwai\",\"credentials\":\"lemon123456\",\"appType\":3,\"loginType\":0}";

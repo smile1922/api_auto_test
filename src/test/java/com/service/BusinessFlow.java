@@ -25,7 +25,7 @@ public class BusinessFlow {
         String searchData = "prodName=&categoryId=&sort=0&orderBy=0&current=1&isAllProdType=true&st=0&size=12";
         Response searchRes = ApiCall.searchProduct(searchData);
         //提取商品ID
-        int prodId = searchRes.jsonPath().get("records[0].prodId");
+        int prodId = searchRes.jsonPath().get("records[2].prodId");
         //保存到环境变量中
         Environment.saveToEnvironment("prodId",prodId);
 
