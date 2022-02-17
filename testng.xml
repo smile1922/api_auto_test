@@ -5,7 +5,7 @@
         <classes>
             <class name="com.testcases.ShopcartTest"/>
             <class name="com.testcases.LoginTest"/>
-            <class name="com.testcases.SearchProdTest"/>
+            <class name="com.testcases.PlaceOrderTest"/>
         </classes>
     </test>
 </suite>
